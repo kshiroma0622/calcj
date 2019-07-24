@@ -49,6 +49,7 @@ public class ConsoleApp {
 
     private void outputPrompt() {
         System.out.print("数式を入力してください$ ");
+        System.out.flush();
     }
 
     private boolean isExitCommand(String str) {

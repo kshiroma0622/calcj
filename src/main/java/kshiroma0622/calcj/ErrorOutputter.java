@@ -48,7 +48,7 @@ public class ErrorOutputter {
 
         SyntaxError.SyntaxErrorType type = error.getType();
         if (type == SyntaxError.SyntaxErrorType.Other) {
-            String format = " エラー  %d文字目付近に文法エラーがあります。(%s)";
+            String format = " エラー  %d文字目付近に文法エラーがあります。[%s]";
             // int n =10 ;
             int pos = token.getPos();
             // int length = inputString.length(); 
